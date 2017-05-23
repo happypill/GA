@@ -1,0 +1,121 @@
+/* Section 2 Start */
+  /* s2 Start */
+    #s2 {
+      margin: 0 auto;
+      max-width: 1192px;
+      background: red;
+      border:10px ,10px ,10px,10px;
+      border-style:dotted;
+    }
+
+    #s2 > h1 > a {
+      color: rgb(255, 68, 34);
+      text-decoration: none;
+    }
+
+    #s2 > h1 > a:hover {
+      color: rgb(85, 85, 85);
+    }
+  /* s2 End */
+
+  /* item Start */
+    #s2 > .list > .item {
+      height: 270px;
+      padding: 10px;
+    }
+
+    /* set common properties for all pictures */
+    #s2 > .list > .item > a {
+      display: block;
+      width: 100%;
+      height: 130px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #s2 > .list > .item > a.pic1 {
+      background-image: url(https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/Google-Photo-Books-506x270.jpg);
+    }
+
+    #s2 > .list > .item > a.pic2 {
+      background-image: url(https://cdn2.tnwcdn.com/wp-content/blogs.dir/1/files/2017/05/Sweden-Twitter-498x270.jpg);
+    }
+
+    /* set common properties for heading */
+    #s2 > .list > .item > .item-title > h2 {
+      font-size: 16px;
+    }
+
+    #s2 > .list > .item > .item-title > h2 > a {
+      color: black;
+    }
+
+    #s2 > .list > .item > .item-title > h2 > a:hover {
+      color: rgb(255, 68, 34);
+    }
+
+    /* set common properties for author and time ago */
+    #s2 > .list > .item > .item-title > span {
+      color: rgb(170, 170, 170);
+    }
+
+    #s2 > .list > .item > .item-title > span > a {
+      color: rgb(170, 170, 170);
+    }
+
+    /* make picture to the left and content to the right */
+    /* instead of picture top and content bottom */
+    @media (max-width: 768px) {
+      #s2 > .list > .item {
+        clear: both;
+        height: 92px;
+      }
+
+      #s2 > .list > .item > a {
+        width: 72px;
+        height: 72px;
+        float: left;
+      }
+
+      #s2 > .list > .item > .item-title {
+        width: calc(100% - 72px);
+        float: right;
+        padding-left: 15px;
+      }
+
+      #s2 > .list > .item > .item-title > h2 {
+        margin-top: 0;
+      }
+    }
+  /* item End */
+/* Section 2 End*/
+
+
+/* Ultils Start */
+  .no-padding {
+    padding: 0;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  .padding-5 {
+    padding: 5px;
+  }
+
+
+  .minus-5 {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+  }
+
+  .height-50 {
+    height: 50%;
+  }
+
+  .relative {
+    position: relative;
+  }
+/* Ultils End */
