@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Site Replication</title>
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/b9cbc9b7bb.js"></script>
+  <script src="js/app.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-default no-margin">
+    <!-- brand -->
+    <div id="navbar-brand" class="hidden-lg hidden-md">
+      <a href="#">
+        <img src="images/tnw.svg">
+      </a>
+    </div>
+
+    <!-- toggle -->
+    <div id="navbar-menu" class="hidden-lg hidden-md hidden-sm">
+      <a href="#" class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></a>
+      <a href="#" class="menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- bar -->
+    <div id="navbar-bar" class="hidden-xs">
+      <!-- Top nav -->
+      <div class="top-nav">
+        <ul class="left-nav">
+          <li><a class="active" href="#">News</a></li>
+          <li><a href="#">Conference</a></li>
+          <li><a href="#">Momentum</a></li>
+          <li><a href="#">Index</a></li>
+          <li><a href="#">Deals</a></li>
+        </ul>
+
+        <ul class="right-nav">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Advertise</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Bot nav -->
+      <div class="bot-nav">
+        <ul class="nav navbar-nav">
+          <li><a href="#">APPS</a></li>
+          <li><a href="#">GEAR</a></li>
+          <li><a href="#">TECH</a></li>
+          <li><a href="#">CREATIVE</a></li>
+          <li><a href="#">MONEY</a></li>
+          <li><a href="#">INSIGHTS</a></li>
+          <li class="hidden-sm"><a href="#">LAUNCH</a></li>
+          <li class="hidden-sm"><a href="#">WORLD</a></li>
+          <li class="hidden-sm"><a href="#">DISTRACT</a></li>
+          <li><a href="#">OFFERS</a></li>
+          <li class="hidden-lg hidden-md"><a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></li>
+        </ul>
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a></li>
+          <li><a href="#" class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Section 1 -->
+    <section id="s1" class="row padding-5">
+      <div id="s1-left" class="col-xs-12 col-sm-8 padding-5 relative">
+        <div id="s1i1" class="cover-image"></div>
+        <a href="#" id="s1l1-gradient" class="cover-gradient minus-5 hidden-xs hidden-sm"></a>
+        <a href="#" id="s1l1-gradient-sm" class="cover-gradient minus-5 hidden-lg hidden-md"></a>
+        <div id="s1-logo" class="hidden-sm hidden-xs">
+          <span class="pull-right">Tuesday — August 30, 2016</span>
+        </div>
+        <header class="s1-header">
+          <p class="large">Report: Apple is bringing new iMacs, MacBooks and a 5K display this year</p>
+          <ul class="s1ul no-padding">
+            <li>by <a href="#">Nate Swanner</a></li>
+            <li><i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago</li>
+            <li><i class="fa fa-share-alt" aria-hidden="true"></i> 300</li>
+          </ul>
+        </header>
+      </div>
+
+      <div id="s1-right" class="col-xs-12 col-sm-4 no-padding">
+        <div class="col-xs-12 padding-5 height-50 relative">
+          <div id="s1i2" class="cover-image"></div>
+          <a href="#" id="s1l2-gradient" class="cover-gradient minus-5"></a>
+          <header class="s1-header">
+            <h5>APPS</h5>
+            <p class="normal">How to force Windows 10 to save data on tethered or weak networks</p>
+            <ul class="s1ul no-padding">
+              <li>by <a href="#">Napier Lopez</a></li>
+              <li><i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago</li>
+              <li><i class="fa fa-share-alt" aria-hidden="true"></i> 300</li>
+            </ul>
+          </header>
+        </div>
+        <div class="col-xs-12 padding-5 height-50 relative">
+          <div id="s1i3" class="cover-image"></div>
+          <a href="#" id="s1l3-gradient" class="cover-gradient minus-5"></a>
+          <header class="s1-header">
+            <h5>TECH</h5>
+            <p class="normal">'Media Hell': An 18 tweet memoir about curating Facebook's trending topics</p>
+            <ul class="s1ul no-padding">
+              <li>by <a href="#">Bryan Clark</a></li>
+              <li><i class="fa fa-clock-o" aria-hidden="true"></i> 2 hours ago</li>
+              <li><i class="fa fa-share-alt" aria-hidden="true"></i> 300</li>
+            </ul>
+          </header>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="s2" class="row padding-5">
+      <h1><a href="#">Lastest news</a></h1>
+      <div class="list padding-5">
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic1"></a>
+          <div class="item-title">
+            <h2><a href="#">'Media Hell': An 18 tweet memoir about curating Facebook's trending topics</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic2"></a>
+          <div class="item-title">
+            <h2><a href="#">Zuckerberg meets with The Pope, offers him a drone</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic1"></a>
+          <div class="item-title">
+            <h2><a href="#">'Media Hell': An 18 tweet memoir about curating Facebook's trending topics</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic2"></a>
+          <div class="item-title">
+            <h2><a href="#">Zuckerberg meets with The Pope, offers him a drone</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic1"></a>
+          <div class="item-title">
+            <h2><a href="#">'Media Hell': An 18 tweet memoir about curating Facebook's trending topics</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic2"></a>
+          <div class="item-title">
+            <h2><a href="#">Zuckerberg meets with The Pope, offers him a drone</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic1"></a>
+          <div class="item-title">
+            <h2><a href="#">'Media Hell': An 18 tweet memoir about curating Facebook's trending topics</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+
+        <div class="item col-lg-3 col-md-3 col-sm-4">
+          <a href="#" class="pic2"></a>
+          <div class="item-title">
+            <h2><a href="#">Zuckerberg meets with The Pope, offers him a drone</a></h2>
+            <span><a href="#">Bryan Clark</a> &middot; 9 hours ago</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

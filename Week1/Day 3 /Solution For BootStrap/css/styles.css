@@ -1,0 +1,442 @@
+/* Navbar Start */
+  /* Brand Start */
+    #navbar-brand {
+      float: left;
+      height: 80px;
+      width: 106px;
+    }
+
+    #navbar-brand > a {
+      display: block;
+      height: 100%;
+      width: 100%;
+      padding: 16px 20px;
+      background: linear-gradient(to right bottom, rgb(204, 0, 153), rgb(255, 68, 34) 85%);
+    }
+
+    #navbar-brand > a > img {
+      height: 100%;
+      width: 100%;
+    }
+
+    @media (max-width: 768px) {
+      #navbar-brand {
+        height: 50px;
+      }
+    }
+  /* Brand End */
+
+  /* Menu Start */
+    #navbar-menu {
+      height: 80px;
+      float: right;
+    }
+
+    #navbar-menu > a {
+      display: inline-block;
+      padding: 10px;
+      border-left: solid rgb(170, 170, 170) 1px;
+    }
+
+    #navbar-menu > a.search-icon {
+      color: rgb(190, 190, 190);
+    }
+
+    #navbar-menu > a.menu-icon {
+      color: rgb(255, 68, 34);
+    }
+
+    #navbar-menu > a > i {
+      font-size: 30px;
+    }
+
+    @media (max-width: 768px) {
+      #navbar-menu {
+        height: 50px;
+      }
+    }
+  /* Menu End */
+
+  /* Bar Start */
+    #navbar-bar {
+      padding: 0;
+    }
+
+    #navbar-bar .top-nav {
+      background-color: black;
+      height: 32px;
+    }
+
+    #navbar-bar .top-nav > ul {
+      list-style: none;
+      margin: 0 10px;
+      padding: 0;
+      height: 100%;
+    }
+
+    #navbar-bar .top-nav > ul:first-child {
+      float: left;
+    }
+
+    #navbar-bar .top-nav > ul:last-child {
+      float: right;
+    }
+
+    #navbar-bar .top-nav > ul > li {
+      display: inline-block;
+      height: 100%;
+    }
+
+    #navbar-bar .top-nav > ul > li:not(:first-child) {
+      margin-left: 15px;
+    }
+
+    #navbar-bar .top-nav > ul > li > a {
+      font-size: 12px;
+      padding: 7.5px 0;
+      display: block;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    #navbar-bar .top-nav > ul > li > a.active {
+      color: white;
+    }
+
+    #navbar-bar .top-nav > ul > li > a:hover {
+      color: white;
+      text-decoration: none;
+    }
+
+    #navbar-bar .bot-nav {
+      height: 48px;
+      color: rgb(170, 170, 170);
+    }
+
+    #navbar-bar .bot-nav > ul {
+      margin: 0 10px;
+    }
+
+    #navbar-bar .bot-nav > ul > li:not(:first-child) {
+      margin-left: 9px;
+    }
+
+    #navbar-bar .bot-nav > ul > li > a {
+      padding: 14px 0;
+    }
+
+    #navbar-bar .bot-nav > ul > li > a > i {
+      font-size: 20px;
+    }
+
+    #navbar-bar .bot-nav > ul > li > a.search-icon {
+      border-left: solid rgb(170, 170, 170) 1px;
+      padding: 14px;
+    }
+  /* Bar Start */
+/* Navbar End*/
+
+/* Section 1 Start */
+  /* height of s1 Start */
+    /* set height of #s1 on different screen */
+    #s1 {
+      height: 75vh;
+      margin: 0;
+    }
+
+    @media (max-width: 992px) {
+      #s1 {
+        height: 60vh;
+      }
+    }
+
+    @media (max-width: 768px) {
+      #s1 {
+        height: 80vh;
+      }
+    }
+
+    /* set height of left and right container to enable */
+    /* 1 big on left & 2 small on right on big screen*/
+    /* 3 small on stacked on small screen*/
+    #s1 > div:first-child, #s1 > div:last-child {
+      height: 100%;
+    }
+
+    @media (max-width: 768px) {
+      #s1 > div:first-child {
+        height: 33%;
+      }
+
+      #s1 > div:last-child {
+        height: 66%;
+      }
+    }
+  /* height of s1 End */
+
+  /* s1-left Start*/
+    /* Cover*/
+    #s1-left #s1i1 {
+      background-image: url('http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/04/MacBookDuel3TNW-796x378.jpg');
+    }
+
+    /* Logo */
+    #s1-left #s1-logo {
+      background-image: url(../images/tnw.svg);
+      background-size: 50% auto;
+      background-repeat: no-repeat;
+      height: 50%;
+      width: calc(100% - 8vh);
+      position: absolute;
+      left: 25px;
+      top: 25px;
+      color: white;
+    }
+
+    /* Gradients */
+    #s1-left #s1l1-gradient {
+      background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(255,0,0,0.5));
+    }
+
+    @media (max-width: 992px) {
+      #s1-left #s1l1-gradient {
+        background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.3));
+      }
+    }
+
+    #s1-left #s1l1-gradient-sm {
+      background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.3));
+    }
+  /* s1-left End*/
+
+  /* s1-right Start*/
+    #s1-right #s1i2 {
+      background-image: url("http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/03/Microsoft-Build-2016-UWP-Dramatic-Blue-Windows-10-1100x619.jpg");
+    }
+
+    #s1-right #s1i3 {
+      background-image: url("http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/08/Screen-Shot-2016-08-29-at-4.22.21-PM-796x467.png");
+    }
+
+    #s1l2-gradient, #s1l3-gradient {
+      background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.3));
+    }
+  /* s1-right End*/
+
+  /* Shared | Position and Size for background Start */
+    /* make background image responsive */
+    .cover-image, .cover-gradient {
+      background-size: cover;
+      background-position: center center;
+      height: 100%;
+      width: 100%;
+    }
+
+    /* make gradient cover on top of image cover*/
+    .cover-gradient {
+      position: absolute;
+      top: 5px;
+    }
+  /* Shared | Position and Size for background End */
+
+  /* Shared | Header Start */
+    /* Common properties for content for each s1 contnet box */
+    .s1-header {
+      color: white;
+      display: block;
+      position: absolute;
+      bottom: 5px;
+      width: calc(100% - 10px);
+      padding: 20px 16px;
+    }
+
+    .s1-header > p {
+      font-weight: bold;
+    }
+
+    /* set font size for different window size */
+    .s1-header > p.large {
+      font-size: 56px;
+      line-height: 56px;
+    }
+
+    .s1-header > p.normal {
+      font-size: 28px;
+      line-height: 28px;
+    }
+
+    @media (max-width: 1200px) {
+      .s1-header > p.large {
+        font-size: 48px;
+        line-height: 48px;
+      }
+
+      .s1-header > p.normal {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .s1-header > p.large {
+        font-size: 40px;
+        line-height: 40px;
+      }
+
+      .s1-header > p.normal {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .s1-header > p.large {
+        font-size: 20px;
+        line-height: 20px;
+      }
+
+      .s1-header > p.normal {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  /* Shared | Header End */
+
+  /* Shared | ul Start */
+    /* set properties for the author, time ago, and shared list */
+    .s1ul {
+      list-style: none;
+      margin: 0;
+      font-size: 12px;
+    }
+
+    .s1ul > li {
+      display: inline;
+      color: rgba(255,255,255,.6);
+    }
+
+    .s1ul > li:not(:first-child) {
+      margin-left: 5px;
+    }
+
+    .s1ul > li > a {
+      color: rgba(255,255,255,.6);
+    }
+  /* Shared | ul End */
+/* Section 1 End*/
+
+/* Section 2 Start */
+  /* s2 Start */
+    #s2 {
+      margin: 0 auto;
+      max-width: 1190px;
+    }
+
+    #s2 > h1 > a {
+      color: rgb(255, 68, 34);
+      text-decoration: none;
+    }
+
+    #s2 > h1 > a:hover {
+      color: rgb(85, 85, 85);
+    }
+  /* s2 End */
+
+  /* item Start */
+    #s2 > .list > .item {
+      height: 270px;
+      padding: 10px;
+    }
+
+    /* set common properties for all pictures */
+    #s2 > .list > .item > a {
+      display: block;
+      width: 100%;
+      height: 130px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #s2 > .list > .item > a.pic1 {
+      background-image: url(http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/08/Screen-Shot-2016-08-29-at-4.22.21-PM-460x270.png);
+    }
+
+    #s2 > .list > .item > a.pic2 {
+      background-image: url(http://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/01/PopeFrancis-768x384.jpg);
+    }
+
+    /* set common properties for heading */
+    #s2 > .list > .item > .item-title > h2 {
+      font-size: 16px;
+    }
+
+    #s2 > .list > .item > .item-title > h2 > a {
+      color: black;
+    }
+
+    #s2 > .list > .item > .item-title > h2 > a:hover {
+      color: rgb(255, 68, 34);
+    }
+
+    /* set common properties for author and time ago */
+    #s2 > .list > .item > .item-title > span {
+      color: rgb(170, 170, 170);
+    }
+
+    #s2 > .list > .item > .item-title > span > a {
+      color: rgb(170, 170, 170);
+    }
+
+    /* make picture to the left and content to the right */
+    /* instead of picture top and content bottom */
+    @media (max-width: 768px) {
+      #s2 > .list > .item {
+        clear: both;
+        height: 92px;
+      }
+
+      #s2 > .list > .item > a {
+        width: 72px;
+        height: 72px;
+        float: left;
+      }
+
+      #s2 > .list > .item > .item-title {
+        width: calc(100% - 72px);
+        float: right;
+        padding-left: 15px;
+      }
+
+      #s2 > .list > .item > .item-title > h2 {
+        margin-top: 0;
+      }
+    }
+  /* item End */
+/* Section 2 End*/
+
+/* Ultils Start */
+  .no-padding {
+    padding: 0;
+  }
+
+  .no-margin {
+    margin: 0;
+  }
+
+  .padding-5 {
+    padding: 5px;
+  }
+
+  .minus-5 {
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+  }
+
+  .height-50 {
+    height: 50%;
+  }
+
+  .relative {
+    position: relative;
+  }
+/* Ultils End */
